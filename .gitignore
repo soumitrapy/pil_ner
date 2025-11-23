@@ -1,3 +1,6 @@
+.ipynb*
+src/.ipynb*
+src/__pycache*
 src/prepare_data.py
 .DS_Store
 .github/instructions/wmt-copilot.instructions.md

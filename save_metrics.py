@@ -8,7 +8,7 @@ from datetime import datetime
 def main():
     # Create output filename with timestamp
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_file = f"results_{timestamp}.txt"
+    output_file = "results.txt"
     
     header = f"""=====================================================================
 PII NER Model Evaluation Results
